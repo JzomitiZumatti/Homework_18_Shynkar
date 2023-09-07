@@ -38,35 +38,35 @@ public class Drinks {
                 case COFFEE:
                     System.out.print("How much cups of coffee do you want?: > ");
                     numberOfCoffee = scanner.nextInt();
-                    generalPrice = numberOfCoffee * COFFEE_PRICE;
+                    generalPrice += numberOfCoffee * COFFEE_PRICE;
                     DrinksMachine.COFFEE.preparingDrink();
                     System.out.println();
                     break;
                 case TEA:
                     System.out.print("How much cups of tea do you want?: > ");
                     numberOfTea = scanner.nextInt();
-                    generalPrice = numberOfTea * TEA_PRICE;
+                    generalPrice += numberOfTea * TEA_PRICE;
                     DrinksMachine.TEA.preparingDrink();
                     System.out.println();
                     break;
                 case LEMONADE:
                     System.out.print("How much cups of lemonade do you want?: > ");
                     numberOfLemonade = scanner.nextInt();
-                    generalPrice = numberOfLemonade * LEMONADE_PRICE;
+                    generalPrice += numberOfLemonade * LEMONADE_PRICE;
                     DrinksMachine.LEMONADE.preparingDrink();
                     System.out.println();
                     break;
                 case MOJITO:
                     System.out.print("How much cups of mojito do you want?: > ");
                     numberOfMojito = scanner.nextInt();
-                    generalPrice = numberOfMojito * MOJITO_PRICE;
+                    generalPrice += numberOfMojito * MOJITO_PRICE;
                     DrinksMachine.MOJITO.preparingDrink();
                     System.out.println();
                     break;
                 case MINERAL_WATER:
                     System.out.print("How much cups of mineral water do you want?: > ");
                     numberOfMineralWater = scanner.nextInt();
-                    generalPrice = numberOfMineralWater * MINERAL_WATER_PRICE;
+                    generalPrice += numberOfMineralWater * MINERAL_WATER_PRICE;
                     DrinksMachine.MINERAL_WATER.preparingDrink();
                     System.out.println();
                     break;
